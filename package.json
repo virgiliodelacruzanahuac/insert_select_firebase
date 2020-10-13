@@ -1,0 +1,27 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@native-html/table-plugin": "^2.1.4",
+    "expo": "~39.0.2",
+    "expo-status-bar": "~1.0.2",
+    "firebase": "^7.23.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
+    "react-native-material-textfield": "^0.16.1",
+    "react-native-render-html": "^4.2.4",
+    "react-native-web": "~0.13.12",
+    "react-native-webview": "github:react-native-community/react-native-webview"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0"
+  },
+  "private": true
+}
